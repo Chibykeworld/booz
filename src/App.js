@@ -1,9 +1,9 @@
-import { useState, useRef, useEffect, createContext} from "react";
+import { useState, useRef, createContext} from "react";
 
 
 import React from "react";
-import Input from "./component/input";
-import Userform from "./component/userform";
+// import Input from "./component/input";
+// import Userform from "./component/userform";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
 // import Output from "./component/Output";

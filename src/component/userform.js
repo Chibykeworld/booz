@@ -1,18 +1,18 @@
 // import "./App.css";
-import React, { useCallback, useRef, createContext } from "react";
+import React, { useCallback } from "react";
 import { useState, useEffect } from "react";
 // import "./style.css";
 import Input from "./input";
-import Page1 from "../Page1";
-import Page2 from "../Page2";
+// import Page1 from "../Page1";
+// import Page2 from "../Page2";
 
 
 
 
 function Userform() {
     const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, ] = useState("");
+    const [password, ] = useState("");
     const [submitted, setSubmitted] = useState(false);
     const [userData, setUserData] = useState(null);
 
